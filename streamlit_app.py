@@ -6,7 +6,7 @@ from langchain.agents.agent_types import AgentType
 
 # Page title
 st.set_page_config(page_title='Ada')
-st.title('Ask the Data App')
+st.title('Ask the Data...')
 
 # Load CSV file
 def load_csv(input_csv):
