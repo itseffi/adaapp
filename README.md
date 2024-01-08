@@ -2,7 +2,7 @@
 
 Ada is an LLM powered app for data querying, utilizing LangChain with the Pandas DataFrame Agent and built with Streamlit.
 
-## Demo App
+## Demo 
 
 [![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://ada-app.streamlit.app/)
 
@@ -13,7 +13,7 @@ You can get your own OpenAI API key by following the following instructions:
 2. Click on the `+ Create new secret key` button.
 3. Next, enter an identifier name (optional) and click on the `Create secret key` button.
 
-## Try out the app
+## Use the app
 
 Once the app is loaded, do the following in sequential order:
 1. Upload a CSV file (you can also tweak the underlying code to have it read in other tabular formats such as Excel or tab delimited files.
