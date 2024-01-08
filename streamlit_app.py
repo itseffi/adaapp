@@ -29,8 +29,8 @@ def generate_response(csv_file, input_query):
 uploaded_file = st.file_uploader('Upload a CSV file', type=['csv'])
 question_list = [
   'Can you provide a statistical summary of the dataset, including mean, median and standard deviation for each numerical column?',
-  'Show all rows where 'ColumnX' values are greater than 10 and 'ColumnY',
-  'What is the average value of 'ColumnZ' for each category in 'CategoryColumn'?',
+  'Show all rows where ColumnX values are greater than 10 and ColumnY',
+  'What is the average value of ColumnZ for each category in CategoryColumn?',
   'Other']
 query_text = st.selectbox('Select an example query:', question_list, disabled=not uploaded_file)
 openai_api_key = st.text_input('OpenAI API Key', type='password', disabled=not (uploaded_file and query_text))
