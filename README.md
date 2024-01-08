@@ -1,14 +1,10 @@
 # Ada (Ask the data app)
 
-Build an LLM powered Ask the Data App with LangChain (using the Pandas DataFrame Agent) and Streamlit.
-
-## Overview of the App
-
-This app uses the Pandas DataFrame Agent from LangChain to allow you to ask questions about a Pandas DataFrame.
+Ada is an LLM powered app for data querying, utilizing LangChain with the Pandas DataFrame Agent and built with Streamlit.
 
 ## Demo App
 
-[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://langchain-ask-the-data.streamlit.app/)
+[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://ada-app.streamlit.app/)
 
 ## Get an OpenAI API key
 
