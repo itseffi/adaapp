@@ -1,0 +1,5 @@
+streamlit
+openai
+langchain==0.0.239
+pandas
+tabulate
