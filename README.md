@@ -20,5 +20,15 @@ Once the app is loaded, do the following in sequential order:
 2. Select an example query from the drop-down menu or provide your own custom query (by selecting the *Other* option)
 3. Enter your OpenAI API key
 
-That's all and the Pandas DataFrame Agent will start to work on your query. 
+## Features
+- Natural Language Queries: Ask questions in plain english and receive insightful answers.
+- Flexible Data Input: Ada works with various tabular data formats for comprehensive analysis.
+- Interactive UI: Streamlit's framework ensures a user-friendly and responsive interface.
+
+##  Future Enhancements
+Ada is continually evolving. Future updates may include:
+
+- Enhanced support for additional file formats.
+- Advanced query options for more complex data analysis.
+- Integration with other data visualization tools for more dynamic reporting.
 
