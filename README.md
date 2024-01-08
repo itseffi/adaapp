@@ -1,4 +1,4 @@
-# 🦜🔗 Langchain - Ask the Data App
+# Ada (Ask the data app)
 
 Build an LLM powered Ask the Data App with LangChain (using the Pandas DataFrame Agent) and Streamlit.
 
