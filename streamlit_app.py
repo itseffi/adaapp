@@ -45,4 +45,4 @@ if openai_api_key.startswith('sk-') and (uploaded_file is not None):
   generate_response(uploaded_file, query_text)
 
 # Footer
-st.markdown("<h6 style='text-align: center; color: grey;'>itseffi © 2023 - 2024</h6>", unsafe_allow_html=True)
+st.markdown("<h6 style='text-align: center; color: grey;'>itseffi © 2023</h6>", unsafe_allow_html=True)
