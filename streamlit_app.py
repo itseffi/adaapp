@@ -5,8 +5,8 @@ from langchain.agents import create_pandas_dataframe_agent
 from langchain.agents.agent_types import AgentType
 
 # Page title
-st.set_page_config(page_title='Ada: AI Data Agent')
-st.title('Your intelligent assistant for data analysis.')
+st.set_page_config(page_title='Ada')
+st.title('AI Data Agent')
 
 # Load CSV file
 def load_csv(input_csv):
@@ -26,14 +26,14 @@ def generate_response(csv_file, input_query):
   return st.success(response)
 
 # Input widgets
-uploaded_file = st.file_uploader('Upload a CSV file for the agent to analyze', type=['csv'])
+uploaded_file = st.file_uploader('Upload a CSV file for the agent to analyze:', type=['csv'])
 question_list = [
   'Can you provide a statistical summary of the dataset, including mean, median and standard deviation for each numerical column?',
   'Show all rows where ColumnX values are greater than 10 and ColumnY',
   'What is the average value of ColumnZ for each category in CategoryColumn?',
   'Other']
 query_text = st.selectbox('Select an example query:', question_list, disabled=not uploaded_file)
-openai_api_key = st.text_input('OpenAI API Key', type='password', disabled=not (uploaded_file and query_text))
+openai_api_key = st.text_input('OpenAI API Key:', type='password', disabled=not (uploaded_file and query_text))
 
 # App logic
 if query_text is 'Other':
